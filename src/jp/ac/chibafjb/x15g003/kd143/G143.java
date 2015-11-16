@@ -13,6 +13,7 @@ public class G143 {
 		String a = x.next();
 		String b = x.next();
 		String c = x.next();
+		x.close();
 		System.out.format("%s\n%s\n%s\n" ,a,b,c);
 	}
 

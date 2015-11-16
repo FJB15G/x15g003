@@ -13,6 +13,7 @@ public class G144 {
 		String a = x.next();
 		String b = x.next();
 		String c = x.next();
+		x.close();
 		System.out.format("＜確認＞住　　所 : %s\n　　　　氏　　名 : %s\n　　　　電話番号 : %s\n" ,a,b,c);
 	}
 
